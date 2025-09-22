@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/sub_setting"
+            android:icon="@drawable/ic_subscriptions_24dp"
+            android:title="@string/sub_setting" />
+        <item
+            android:id="@+id/per_app_proxy_settings"
+            android:icon="@drawable/ic_per_apps_24dp"
+            android:title="@string/per_app_proxy_settings" />
+        <item
+            android:id="@+id/routing_setting"
+            android:icon="@drawable/ic_routing_24dp"
+            android:title="@string/routing_setting" />
+        <item
+            android:id="@+id/user_asset_setting"
+            android:icon="@drawable/ic_file_24dp"
+            android:title="@string/user_asset_setting" />
+    </group>
+
+    <item android:title="@string/settings">
+        <menu>
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/ic_settings_24dp"
+                android:title="@string/settings" />
+        </menu>
+    </item>
+
+    <item android:title="@string/help">
+        <menu>
+            <item
+                android:id="@+id/promotion"
+                android:icon="@drawable/ic_promotion_24dp"
+                android:title="@string/promotion" />
+            <item
+                android:id="@+id/logcat"
+                android:icon="@drawable/ic_logcat_24dp"
+                android:title="@string/logcat" />
+            <item
+                android:id="@+id/check_for_update"
+                android:icon="@drawable/ic_check_update_24dp"
+                android:title="@string/check_for_update" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_about_24dp"
+                android:title="@string/about" />
+        </menu>
+    </item>
+
+</menu>
